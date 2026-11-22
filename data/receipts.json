@@ -1,0 +1,30 @@
+{
+  "receipts": [
+    {
+      "id": "R01",
+      "group": "机巡班",
+      "from": 145,
+      "to": 175,
+      "requestId": null,
+      "basedOn": [
+        "N11",
+        "S21"
+      ],
+      "issuedAt": 1795387800000,
+      "note": ""
+    },
+    {
+      "id": "R02",
+      "group": "南班",
+      "from": 195,
+      "to": 260,
+      "requestId": null,
+      "basedOn": [
+        "S21",
+        "S22"
+      ],
+      "issuedAt": 1795388100000,
+      "note": ""
+    }
+  ]
+}

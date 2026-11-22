@@ -8,6 +8,11 @@
   },
   "scripts": {
     "origin": "node origin/origin.mjs",
-    "test": "node --test origin/source.test.mjs"
+    "test": "node --test origin/source.test.mjs 'test/**/*.test.mjs'",
+    "collect": "node src/cli.mjs collect",
+    "report": "node src/cli.mjs report",
+    "confirm": "node src/cli.mjs confirm",
+    "query": "node src/cli.mjs query",
+    "e2e": "node test/e2e-story.mjs"
   }
 }

@@ -10,3 +10,7 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 本地采集快照与回执台账
+data/*
+!data/.gitkeep
